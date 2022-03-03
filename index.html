@@ -1,0 +1,125 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+    <title>MARVELL</title>
+  </head>
+  <body>
+
+    <style> /*Стиль для кнопки Поиск*/
+        .finder {
+         background:#0D6EFD; 
+         color: white; 
+         font-size: 13pt; 
+        }
+       </style>
+
+    <nav class="navbar navbar-dark bg-primary">
+        <div class="container-fluid">
+          <a class="navbar-brand">Marwell</a>
+          <form class="d-flex">
+            <input class="form-control me-2" type="search" placeholder="поиск..." aria-label="Search">
+            <button class="btn btn-light" type="submit">Поиск </button>
+          </form>
+        </div>
+      </nav>
+
+      <div class="container">
+
+        <h1>Персонажи Marvell</h1>
+        <div class="card mb-3" style="max-width: 540px;">
+          <div class="row g-0">
+            <div class="col-md-4">
+              <img src="https://i.pinimg.com/originals/f4/fa/7e/f4fa7e4d61eaac886c2d00770d2fb071.png"
+                class="img-fluid rounded-start" alt="...">
+            </div>
+            <div class="col-md-8">
+              <div class="card-body">
+                <h5 class="card-title">Человек - паук</h5>
+                <!-- Button trigger modal -->
+                <button type="button" class="btn btn-primary" data-bs-toggle="modal"
+                  data-bs-target="#exampleModal">Подробнее</button>
+              </div>
+            </div>
+          </div>
+        </div>
+    
+        
+    
+    <!-- Modal -->
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel">Человек - паук</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <img src="https://i.pinimg.com/originals/f4/fa/7e/f4fa7e4d61eaac886c2d00770d2fb071.png" class="img-fluid rounded-start" alt="...">
+            <div class="spider-history">
+              <h5>Описание</h5>
+              <p> <b>Рост:</b>  172 см (5'10" дюймов) <br>
+                 <b>Вес: </b>  75 кг (167 фунтов) <br>
+                <b>Цвет Глаз:</b>  Карие <br>
+                <b>Цвет Волос:</b>  Каштановые <br>
+               <strong>Родственники:</strong> 
+                Ричард Паркер (отец, погиб), Мэри Паркер (мать, погибла), Бенджамин Паркер (дядя, погиб), Мэй Паркер (тётя), Уилл
+                Фитзпатрик (дед), Мэй Паркер (дочь, вероятнее всего погибла), Бенджамин Райли (Алый Паук, клон, погиб), Кейн (клон,
+                погиб), другие клоны (погибли) <br>
+               <b>Принадлежность к Группам:</b> <br>
+                Мстители (Avengers), Новые Мстители (New Avengers), раньше Секретные Защитники (Secret Defenders), "Новая
+                Фантастическая Четверка " ("New Fantastic Four"), the Outlaws
+               <b>Место Рождения:</b>  Нью-Йорк <br>
+                <b>Гражданство</b>: США <br>
+               <b>Семейное положение:</b>  Холост </p>
+              <h5>Фильмография:</h5>
+              <ul>
+                <li>1973 — «3 гигантских человека»</li>
+                <li>1977 — «Человек-паук»</li>
+                <li>1979 — «Человек-паук: Снова в бою»</li>
+                <li>1981 — «Человек-паук: Вызов Дракону»</li>
+                <li>2002 — «Человек-паук»</li>
+                <li>2004 — «Человек-паук 2»</li>
+                <li>2007 — «Человек-паук 3: Враг в отражении»</li>
+                <li>2012 — «Новый Человек-паук»</li>
+                <li>2014 — «Новый Человек-паук. Высокое напряжение»</li>
+                <li>2016 — «Первый мститель: Противостояние»</li>
+                <li>2017 — «Человек-паук: Возвращение домой»</li>
+                <li>2018 — «Мстители: Война Бесконечности»</li>
+                <li>2018 — «Человек-паук: Через вселенные»</li>
+                <li>2019 — «Человек-паук: Вдали от дома»</li>
+              </ul>
+    
+            </div>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Закрыть</button>
+        
+          </div>
+        </div>
+      </div>
+    </div>
+
+      </div>
+
+  
+
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" 
+    integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+    -->
+  </body>
+</html>
